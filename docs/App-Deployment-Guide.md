@@ -139,7 +139,7 @@ Let’s get started
 	
 	{
 	
-  		"clientId": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz",
+  		"clientId": "e3f0c074-6df1-4048-ba8a-0c084b37e56c",
 		
   		"clientSecret": "your-client-secret",
 		
