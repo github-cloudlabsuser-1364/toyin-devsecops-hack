@@ -65,7 +65,7 @@ jobs:
       - name: azure login
         uses: azure/login@v1
         with:
-          creds: ${{ e3f0c074-6df1-4048-ba8a-0c084b37e56c }}
+          creds: ${{ secrets.SERVICEPRINCIPAL }}
       # section #0: optional configuration of the Azure AD app.
       # create the Azure AD application (and update it if it already exists).
       # note: This is an idempotent operation.
