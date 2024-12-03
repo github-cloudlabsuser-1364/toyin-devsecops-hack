@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-      
+
 jobs:
   ai_security_check_for_pull_requests:
     runs-on: ubuntu-latest
@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        run: npm ci
+             npm ci
 
       - name: Finding security and privacy code vulnerabilities
         id: ai_security_check
