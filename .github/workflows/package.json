@@ -1,0 +1,23 @@
+{
+  "name": "ai-security-check-for-pr-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ai-security-check-for-pr.js",
+  "keywords": [
+    "openai",
+    "github",
+    "action"
+  ],
+  "author": "Beto Muniz <contato@betomuniz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "axios": "^1.3.4"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  },
+  "scripts": {
+    "build": "ncc build ai-security-check-for-pr.js -o dist"
+  }
+}
