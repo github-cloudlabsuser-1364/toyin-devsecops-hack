@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+      
 jobs:
   ai_security_check_for_pull_requests:
     runs-on: ubuntu-latest
